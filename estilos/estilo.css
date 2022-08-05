@@ -1,6 +1,11 @@
 .cabeza
 {
-    background-color: rgb(142, 142, 142);     
+    background-image: linear-gradient(-2deg, #B6CEE8 0%, #F578DC 100%);     
+}
+
+.color 
+{
+    background-image: linear-gradient(-100deg, #E3FDF5 0%, #FFE6FA 100%);
 }
 .logo h1
       
@@ -8,7 +13,7 @@
            margin-top: -25px;
             font-size: 30px;
             margin-left: 20px;
-            color: rgb(39, 232, 62);
+            color:#6ee827;
         }
 .logo p
 {
@@ -21,6 +26,7 @@ div ul {
    
     display: flex;
     gap: 2.3rem;
+    font-family: "georgia";
     justify-content: center ;
     margin-top: 15px;
     align-items: center;
@@ -35,11 +41,11 @@ div ul li {
     }
 div ul li a {
         text-decoration: none;
-        color: rgb(238, 236, 236);
+        color: #eeecec;
     }
 
 nav ul li a:hover {
-            color: rgb(39, 232, 62)
+            color: #6ee827
         }
 
 .fotobosque
@@ -52,7 +58,7 @@ nav ul li a:hover {
         {
             font-size: 50px;
             position: absolute;
-            color: rgb(39, 232, 62);
+            color: #6ee827;
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
@@ -63,7 +69,7 @@ nav ul li a:hover {
             height: 100px;
             width: 100%;
             text-align: center;
-            background-color: rgb(88, 88, 88);
+            background-color: #a79dc8;
         
          }
          
@@ -71,12 +77,12 @@ nav ul li a:hover {
                 font-size: 25px;
                 margin-bottom: 20px;
                 margin-right:30px;
-                color: #8c8b8b;
+                color: #000000;
             }
         
  .footer i{
                 font-size: 25px;
-                color: #8c8b8b;
+                color: #000000;
                 letter-spacing: 30px;
                 margin-bottom: 10px;
                 }
@@ -109,10 +115,7 @@ height: 600px;
     margin-left: 20px;
 }
 
-.galeria
-{
-    background-color: #f2f2f2;
-}
+
 .conteiner
 {
     width: 90%;
@@ -175,4 +178,12 @@ height: 600px;
     width: 40px;
     cursor: pointer;
 
+}
+
+.caja
+{
+    margin-top: 80px;
+    border-radius: 10px;
+    height: 600px;
+    background-color: #a79dc8
 }

@@ -21,7 +21,18 @@ function capturardatos()
    localStorage.setItem("Fecha del cumple",fechacumple);
    localStorage.setItem("Cumpleaños de",nombrecumple);
    localStorage.setItem("telefono", tel);
-   alert("SU FECHA ESTA SIENDO PROCESADA");
+   swal.fire({
+    title: "Listo!",
+    width:600,
+    text:"Su fecha se esta procesando",
+    imageUrl:"./imagenes/globos.png",
+    imageWidth: 250,
+    ImageHeigth: 80,
+    imageAlt: "img-catel",
+    color:"#27e83e",
+    background:"#f7f6f6",
+    confirmButtonText:"aceptar",
+   });
 }
 
 
