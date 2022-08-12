@@ -1,27 +1,26 @@
-.cabeza
-{
-    background-image: linear-gradient(-2deg, #B6CEE8 0%, #F578DC 100%);     
-}
+
 
 .color 
 {
     background-image: linear-gradient(-100deg, #E3FDF5 0%, #FFE6FA 100%);
 }
-.logo h1
-      
-        {
-           margin-top: -25px;
-            font-size: 30px;
-            margin-left: 20px;
-            color:#6ee827;
-        }
-.logo p
+
+.foto-logo
 {
-    
-    font-size: 20px;
-    margin-left: 50px;
-    text-align: start;
+    width: 200px;
 }
+.logo-redes
+{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.logo-redes span
+{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
 div ul {
    
     display: flex;
@@ -30,6 +29,7 @@ div ul {
     justify-content: center ;
     margin-top: 15px;
     align-items: center;
+    margin-right: 35px;
    
 }
 
@@ -37,11 +37,12 @@ div ul li {
         list-style: none;
         font-size: 18px;
         font-weight: 400px;
-        
+       
     }
 div ul li a {
+        
         text-decoration: none;
-        color: #eeecec;
+        color: black;
     }
 
 nav ul li a:hover {
@@ -51,19 +52,13 @@ nav ul li a:hover {
 .fotobosque
         {
             width: 100%;
-            height: 400px;
+            height: 600px;
+            opacity: 0.9;
+            
+        
         }
 
-.contenedor h3  
-        {
-            font-size: 50px;
-            position: absolute;
-            color: #6ee827;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            font-family:cursive
-        }
+
 .footer {
             margin-top: 100px;
             height: 100px;
@@ -95,6 +90,8 @@ nav ul li a:hover {
 .contenido h1
 {
     text-align: center;
+    font-size: 60px;
+    font-family: 'Mystery Quest', cursive;
 }
 .contenido p
 {   
@@ -114,7 +111,6 @@ height: 600px;
     height: 350px;
     margin-left: 20px;
 }
-
 
 .conteiner
 {
